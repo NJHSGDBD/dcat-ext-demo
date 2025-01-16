@@ -15,8 +15,7 @@ class HomeController extends Controller
     public function index(Content $content)
     {
         return $content
-            ->row('<h1>Form Field</h1>')
-            ->row('<h3>TextM</h3>')
+            ->row('<h1>Form</h1>')
             ->row((new Demo())->form());
     }
 }

@@ -24,6 +24,7 @@ namespace Dcat\Admin {
 
     /**
      * @method \NJHSGDBD\DcatExt\Form\TextModifyField textM(...$params)
+     * @method \NJHSGDBD\DcatExt\Form\SwitchModifyField switchM(...$params)
      */
     class Form {}
 
