@@ -16,6 +16,8 @@ class HomeController extends Controller
     {
         return $content
             ->row('<h1>Form</h1>')
-            ->row((new Demo())->form());
+            ->row((new Demo())->form())
+            ->row('<h1>Grid</h1>')
+            ->row((new Demo())->grid());
     }
 }
